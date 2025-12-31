@@ -1,0 +1,25 @@
+project_id = "mmkdfxxhhbjayowouhgy"
+
+[functions.get-sheet-data]
+verify_jwt = false
+
+[functions.update-sheet-data]
+verify_jwt = false
+
+[functions.delete-sheet-data]
+verify_jwt = false
+
+[functions.sync-google-sheet]
+verify_jwt = false
+
+[functions.export-csv]
+verify_jwt = false
+
+[functions.generate-ai-insights]
+verify_jwt = false
+
+[functions.generate-campaigns]
+verify_jwt = false
+
+[functions.get-analytics]
+verify_jwt = false
