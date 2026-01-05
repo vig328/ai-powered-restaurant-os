@@ -33,7 +33,7 @@ const Menu = ({ onAddToCart }: MenuProps) => {
           : "";
 
         const res = await fetch(
-          `http://localhost:8000/api/menu?customer_email=${encodeURIComponent(
+          `https://ai-powered-restaurant-os-4.onrender.com/api/menu?customer_email=${encodeURIComponent(
             customerEmail ?? ""
           )}`
         );
