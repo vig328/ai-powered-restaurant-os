@@ -31,7 +31,7 @@ const Cart = ({ open, onOpenChange, items, onUpdateQuantity, onRemove }: CartPro
       const userName = sessionStorage.getItem(`user_name_${sid}`) || "Guest User";
       const userEmail = sessionStorage.getItem(`user_email_${sid}`) || "guest@example.com";
 
-      const response = await fetch("http://localhost:8000/order", {
+      const response = await fetch("https://ai-powered-restaurant-os-4.onrender.com/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -88,7 +88,7 @@ const Cart = ({ open, onOpenChange, items, onUpdateQuantity, onRemove }: CartPro
   try {
     const sid = sessionStorage.getItem("fsog_session_id");
 
-    const response = await fetch("http://localhost:8000/payment", {
+    const response = await fetch("https://ai-powered-restaurant-os-4.onrender.com/payment", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
