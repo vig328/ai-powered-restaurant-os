@@ -24,7 +24,7 @@ const BookingPage = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:8000/book-table", form);
+      const res = await axios.post("https://ai-powered-restaurant-os-4.onrender.com/book-table", form);
       setResponse(res.data.response);
       setPaymentLink(res.data.payment_link);
     } catch (err: any) {
