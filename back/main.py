@@ -4,7 +4,7 @@ import requests
 import stripe
 import bcrypt
 import jwt
-import google.generativeai as genai
+from google import genai
 import json
 import re 
 import math
