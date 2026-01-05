@@ -5,7 +5,7 @@ requests
 stripe
 bcrypt
 PyJWT
-google-generativeai
+google-genai
 python-dateutil
 google-api-python-client
 google-auth
