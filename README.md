@@ -273,12 +273,12 @@ It enables restaurants to optimize revenue, enhance customer experience, and aut
 
 - A complete end-to-end walkthrough of the Fifty Shades of Gravy – Restaurant Management System, covering chatbot interactions, dynamic menu behavior, personalized pricing, table booking flow, and payment integration.
 
-**👉 Demo Video (Google Drive):**
+**👉 Demo Video (Google Drive): **
 [ https://drive.google.com/drive/u/0/folders/1sacZzzHxGg6Yb_9R7IKRz9xKXY46f5N6 ]
 
 **📄 Project Documentation (PDF)**
 
 - Detailed technical and product documentation explaining system architecture, feature breakdown, personalization logic, dynamic pricing strategy, and business impact.
 
-**👉 Documentation PDF (Google Drive):**
+**👉 Documentation PDF (Google Drive): **
 [ https://drive.google.com/drive/u/0/folders/1sacZzzHxGg6Yb_9R7IKRz9xKXY46f5N6 ]
