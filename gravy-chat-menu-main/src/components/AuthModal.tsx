@@ -34,7 +34,7 @@ const AuthModal = ({ open, onOpenChange, onLoginSuccess }: AuthModalProps) => {
   const handleLogin = async () => {
   try {
     sessionStorage.clear(); // 🧹 reset any leftover session
-    const response = await fetch("https://ai-powered-restaurant-os-4.onrender.com/login", {
+    const response = await fetch("https://ai-powered-restaurant-os-2.onrender.com/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -78,7 +78,7 @@ const AuthModal = ({ open, onOpenChange, onLoginSuccess }: AuthModalProps) => {
 
   const handleRegister = async () => {
     try {
-      const response = await fetch("https://ai-powered-restaurant-os-4.onrender.com/register", {
+      const response = await fetch("https://ai-powered-restaurant-os-2.onrender.com/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
