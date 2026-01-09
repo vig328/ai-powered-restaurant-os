@@ -24,11 +24,11 @@ const BookingPage = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("https://ai-powered-restaurant-os-4.onrender.com/book-table", form);
+      const res = await axios.post("https://ai-powered-restaurant-os-2.onrender.com/book-table", form);
       setResponse(res.data.response);
       setPaymentLink(res.data.payment_link);
     } catch (err: any) {
-      setResponse("Something went wrong");
+      setResponse("All Tables Are Book Right Now Please Contact Manager Have A Nice Day");
     }
 
     setLoading(false);
